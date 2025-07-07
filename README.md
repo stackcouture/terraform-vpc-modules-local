@@ -31,13 +31,11 @@ Follow the steps below to get started with provisioning the VPC infrastructure.
 ## 1. Clone the Repository
 
   Clone the repository to your local machine:
-  ```bash
   git clone https://github.com/stackcouture/terraform-vpc-modules-local.git
 
 ## 2. Navigate to the Module Directory
     
     Change into the project directory:
-    ```bash
     cd terraform-vpc-modules-local
 
 ## 3. Modify the Variables
@@ -50,20 +48,17 @@ Follow the steps below to get started with provisioning the VPC infrastructure.
 
 ## 4. Initialize Terraform
   Initialize Terraform to install the necessary providers and modules:
-  ```bash
   terraform init
 
 ## 5. Apply the Configuration
 
   Once initialization is complete, you can apply the configuration to provision the resources:
-  ```bash
   terraform apply
   You will be prompted to confirm the execution by typing yes.
 
 ## 6. Clean Up (Optional)
 
   To remove all the resources you’ve provisioned, you can use the following command:
-  ```bash
   terraform destroy
 
 ## Resources
