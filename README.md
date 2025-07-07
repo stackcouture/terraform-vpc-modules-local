@@ -29,20 +29,17 @@ Before using this project, ensure that you have the following prerequisites:
 
 Follow the steps below to get started with provisioning the VPC infrastructure.
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
-Clone the repository to your local machine:
-
-```bash
+  Clone the repository to your local machine:
   git clone https://github.com/stackcouture/terraform-vpc-modules-local.git
 
-### 2. Navigate to the Module Directory
+## 2. Navigate to the Module Directory
 
-  Change into the project directory:
-  ```bash
+    Change into the project directory:
     cd terraform-vpc-modules-local
 
-### 3. Modify the Variables
+## 3. Modify the Variables
   Customize the configuration by modifying the terraform.tfvars file to define your desired VPC, subnet, and instance parameters.
 
   Example:
@@ -50,23 +47,19 @@ Clone the repository to your local machine:
   instance_type  = "t2.micro"
   az_name        = "us-west-2a"
 
-### 4. Initialize Terraform
+## 4. Initialize Terraform
   Initialize Terraform to install the necessary providers and modules:
-
-  ```bash
   terraform init
 
-### 5. Apply the Configuration
+## 5. Apply the Configuration
 
   Once initialization is complete, you can apply the configuration to provision the resources:
-  ```bash
   terraform apply
   You will be prompted to confirm the execution by typing yes.
 
 ### 6. Clean Up (Optional)
 
   To remove all the resources you’ve provisioned, you can use the following command:
-  ```bash
   terraform destroy
 
 ## Resources
